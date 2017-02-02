@@ -1,0 +1,388 @@
+
+
+@font-face { 
+font-family: 'hdassaLine'; 
+src: url('fonts/hadassaLineProV2-Regular.woff') format('woff');
+}
+
+@font-face { 
+font-family: “Museo”; 
+src: url('fonts/Museo.woff') format('woff');
+}
+
+@font-face { 
+font-family: “Museo-Regular”; 
+src: url('fonts/Museo.woff') format('woff');
+}
+
+
+*{
+	box-sizing: border-box;
+	margin-top: 0px;
+
+}
+
+
+
+body{
+	margin: auto;
+	position: relative;
+	
+
+    /* The image used */
+    background-image: url('images/header.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax{
+	margin: auto;
+	position: relative;
+	
+
+    /* The image used */
+    background-image: url('images/header.jpg');
+
+    /* Full height */
+    height: 400px; 
+ 	width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-intro {
+	width: 100%;
+	height: 100vh;
+	padding-top: 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1
+}
+
+.main {
+	width: 100%;
+	position: absolute;
+	top: 100vh;
+	left: 0;
+	z-index: 1;
+	background-color: white;
+}
+
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 60px;
+	position: relative;
+	z-index: 2;
+
+}
+
+
+.card{
+	width: 250px;
+	height: 180px;
+	padding: 20px;
+	margin: 0 auto;
+	background-color: white;
+	margin-top: 28vh;
+	text-align: center;
+	border: 3px solid black;
+	text-transform: uppercase;
+}
+
+.card h3{
+	font-family:  'Museo', sans-serif;
+	font-size: 25px;
+}
+
+.row:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.right-box{
+	float: left;
+	padding-right: 35px;
+	width: 50%;
+
+}
+
+.left-box{
+	float: left;
+	width: 50%;
+}
+
+.row {
+	font-family: 'Raleway', sans-serif; 
+	font-size: 14px;
+}
+
+
+.hint{
+	width: 25%;
+	float: left;
+}
+
+.number{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.stats{
+	text-align: center;
+    font-family: 'hdassaLine';
+    background-image: url(images/heads.gif);
+    background-size: cover;
+    padding: 180px 60px;
+}
+
+.stats p{
+	vertical-align: ;
+}
+
+.stats h2{
+    display: inline-block;
+    padding: 30px;
+    vertical-align: middle;
+}
+
+.number{
+	padding-bottom: 20px;
+}
+
+.number h1{
+	margin-bottom: 10px;
+	font-size: 150px;
+	line-height: 120px;
+}
+
+.stats p{
+	padding-left: 500px;
+}
+
+h2.col-3{
+	float: left;
+	width: 75%;
+	padding-right: 20px;
+
+}
+
+.hint{
+	padding-top: 10px;
+}
+h5 {
+    color: #FC4855;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+h2 {
+	font-family: 'hdassaLine';
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 45px;
+}
+
+
+
+
+h3{
+	font-size: 25px;
+	margin-bottom: 0;
+	padding-top: 25px;
+	
+} 
+
+
+h1 {
+	font-family: 'hdassaLine';
+	font-size: 60px;
+	font-weight: 400;
+	margin-bottom: 35px;
+
+}
+
+p {
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.hint p{
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.paragraph7 .right-box{
+	width:50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+}
+
+.paragraph7 h1{
+	width:50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+}
+
+.img4{
+	width: 67%;
+	margin-left: 33%;
+	box-shadow: 1px 1px 10px grey;
+}
+
+.img2{
+	width:100%;
+    padding-top: 70px;
+}
+
+.collage{
+	position: relative;
+}
+
+.bag{
+	width: 100%;
+	position: absolute;
+	top: 71px;
+	
+}
+
+.img3{
+	width:100%;
+	margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 10px grey;
+
+}
+	
+.img6{
+	width: 40%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+
+	}
+
+
+.gif5 {
+    background-image: url(images/fuji.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    box-shadow: 1px 1px 10px grey;
+}
+
+
+.toshiko{
+	font-family: 'hdassaLine';
+	font-size: 70px;
+	font-weight: 400;
+	color: #FC4855;
+	text-align: center;
+
+
+}
+
+.imgtoshiko {
+width: 100%;
+  -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}
+
+.imgtoshiko:hover{
+	 -webkit-animation-name: none;
+}
+
+.row > img{
+	margin-top: 100px;
+}
+
+.vs{
+    color: #FC4855;
+}
+
+
+.doghead{
+	width: 6%;
+	
+}
+
+
+
+span {
+	width: 6%;
+
+
+}
+
+span > img:hover{
+	width: 14%;
+	transform: rotate(15deg);
+}
+
+.paragraph1{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.paragraph2{
+	padding-top: 80px;
+}
+
+
+.paragraph3{
+	padding-top: 80px;
+}
+
+.paragraph4{
+	padding-top: 40px;
+}
+
+.paragraph5{
+	padding-top: -20px;
+}
+
+.paragraph6{
+	padding-top: 30px;
+}
+
+.paragraph6 .right-box{
+	margin-top: -30px;
+}
+
+.paragraph7{
+	padding-top: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+
